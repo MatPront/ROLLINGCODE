@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 640px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.contenedor > h1,
+.contenedor > h3,
+.contenedor > p {
+    margin-left: 42px;
+    margin-right: 42px;
+}
+
+.contenedor > h1 {
+    margin-top: 42px;
+}
+
+.abajo {
+    display: flex;
+    margin-top: 30px;
+}
+
+.precio {
+    width: 50%;
+    padding: 30px;
+    background-color: #2db3b3;
+}
+
+.part {
+    width: 50%;
+    padding: 30px;
+    background-color: #4dbfbd;
+}
+
+.valor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
